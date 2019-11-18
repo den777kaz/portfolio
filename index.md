@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Portfolio</title>
+    <style hk></style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <img class="header__logo" src="./img/svg/logo.svg" alt="logo">
+            <nav class="header-navbar">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <svg class="square" width="469" height="378" viewBox="0 0 469 378" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M466.115 81.342L172.342 -88.2679L2.73196 205.505L296.505 375.115L466.115 81.342ZM171.61 -91L-9.15527e-05 206.237L297.237 377.847L468.847 80.61L171.61 -91Z"
+                    fill="white" fill-opacity="0.2" />
+            </svg>
+            <svg class="circle" width="272" height="145" viewBox="0 0 272 145" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M136 143C210.122 143 270 86.4754 270 17C270 -52.4754 210.122 -109 136 -109C61.8779 -109 2 -52.4754 2 17C2 86.4754 61.8779 143 136 143ZM136 145C211.111 145 272 87.6924 272 17C272 -53.6924 211.111 -111 136 -111C60.8893 -111 0 -53.6924 0 17C0 87.6924 60.8893 145 136 145Z"
+                    fill="#FFFCFC" fill-opacity="0.2" />
+            </svg>
+            <svg class="triangle" width="508" height="503" viewBox="0 0 508 503" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M362.49 125.339L0.652047 252.056L291.311 502.058L362.49 125.339ZM359.881 128.371L4.5825 252.799L289.989 498.283L359.881 128.371Z"
+                    fill="#FDFDFD" fill-opacity="0.2" />
+            </svg>
+            <div class="container">
+                <div class="line"></div>
+                <div class="hero-info">
+                    <h1 class="hero-info__headText">I'm John Wick <span>Webdesigner</span></h1>
+                    <p class="hero-info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quam
+                        reiciendis ex obcaecati sequi ipsa magnam suscipit, officiis deserunse!</p>
+                    <button class="hero-info__btnContact btn--style">Contact me</button>
+                    <button class="hero-info__btnPortfolio btn--style">Portfolio</button>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="./img/svg/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="./img/svg/instogram.svg" alt="instogram"></a>
+                    <a href="#"><img src="./img/svg/behance.svg" alt="behance"></a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <img class="black-arrow" src="./img/svg/arrowBlack.svg" alt="arrowBlack">
+            <div class="container">
+                <div class="line-about"></div>
+                <h2 class="about__headText section--headText">About Me</h2>
+                <div class="underline"></div>
+                <div class="about-wrap">
+                    <div class="about-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cumque reiciendis noet
+                            consectetur adipisicing elit. Distinctio cumque reicienstrum doet consectetur adipisicing
+                            elit. Distinctio cumque reicienlor corrupti animi assumenda, fugit repudiandae. Ullam,
+                            impedit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum soluta modi perferendis doet
+                            consectetur adipisicing elit. Distinctio cumque reicienet consectetur adipisicing elit.
+                            Distinctio cumque reicienlores dolorem amet nobis enim iure quos repudiandae.</p>
+                    </div>
+                    <div class="about-skills">
+                        <p>HTML</p><span>92%</span>
+                        <div class="skill-item"></div>
+                        <p>CSS</p><span>85%</span>
+                        <div class="skill-item"></div>
+                        <p>JavaScript</p><span>78%</span>
+                        <div class="skill-item"></div>
+                        <p>PhotoShop</p><span>74%</span>
+                        <div class="skill-item"></div>
+                        <p>Illustrator</p><span>67%</span>
+                        <div class="skill-item"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div id="portfolio" class="container">
+                <h2 class="port__headText section--headText">Portfolio</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
+                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
+                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
+                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
+                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
+                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
+                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img hidden">
+                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img hidden">
+                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img hidden">
+            </div>
+            <button class="portfolio-btn btn--style" id="portfolio-btn">See more</button>
+
+        </section>
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2 class="reviews__headText section--headText">Customer Reviews</h2>
+                <div class="underline"></div>
+                <div class="review-slider">
+                    <div class="slider-arrows">
+                        <img src="./img/svg/arrow_left.svg" class="arrow__left" alt="arrow-left">
+                        <img src="./img/svg/arrow_right.svg" class="arrow__right" alt="arrow-right">
+                    </div>
+                    <div class="slider-content">
+                        <img src="./img/photo.jpg" alt="photo">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus blanditiis animi
+                            quisquam repellat ut. Esse ex nam dolor, reiciendis, eveniet id laborum, eligendi maxime
+                            saepe libero nostrum cupiditate nesciunt est?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="contact__headText section--headText">Contact Me</h2>
+                <div class="underline"></div>
+                <form id="myFomr" class="contact-form">
+                    <input type="text" name="Name" id="name" placeholder="Name">
+                    <input type="mail" name="E-mail" id="email" placeholder="E-mail">
+                    <textarea name="mesagge" id="message" rows="15" placeholder="leave a message"></textarea>
+                    <button id="send-form" class="contact__btn btn--style">Send</button>
+                </form>
+
+            </div>
+            <div class="contact-card">
+                <img src="./img/contact_photo.jpg" alt="contact-photo">
+                <div class="contact-data">
+                    <div class="wrap">
+                        <p>John Wick</p>
+                        <p>musterstrasse 77</p>
+                        <p>87988 Musterstadt</p>
+                        <p>Deutschland</p>
+                    </div>
+                    
+                    <div class="wrap">
+                        <p>Tel: (907) 555-0101</p>
+                        <p>john-wick@mail.co</p>
+                    </div>
+
+                </div>
+            </div>
+            <img class="black-arrow-down" src="./img/svg/arrowBlack_down.svg" alt="arrowBlack">
+        </section>
+        <footer class="footer">
+            <div class="container">
+                    <nav class="footer-float header-navbar">
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#about">About me</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </nav>
+                        <div class="footer-icons">
+                                <a href="#"><img src="./img/svg/facebook.svg" alt="facebook"></a>
+                                <a href="#"><img src="./img/svg/instogram.svg" alt="instogram"></a>
+                                <a href="#"><img src="./img/svg/behance.svg" alt="behance"></a>
+                        </div>
+            </div>
+
+        </footer>
+    </main>
+</body>
+
+</html>
