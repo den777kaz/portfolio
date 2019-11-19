@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
+    <style id="style"></style>
     <title>Portfolio</title>
-    <style hk></style>
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
+        <!--hamburger-menu -->
+        <img id="hamb-icon" src="./img/svg/menu.svg" alt="hamb-menu">
+        <menu class="hamb-menu">
+                <span id="close-btn">Close</span>
+                <a href="#hero">Home</a>
+                <a href="#about">About me</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </menu>
+        <div class="container">   
             <img class="header__logo" src="./img/svg/logo.svg" alt="logo">
             <nav class="header-navbar">
                 <li><a href="#hero">Home</a></li>
@@ -61,7 +71,7 @@
             <div class="container">
                 <div class="line-about"></div>
                 <h2 class="about__headText section--headText">About Me</h2>
-                <div class="underline"></div>
+                <div class="underline about__underline"></div>
                 <div class="about-wrap">
                     <div class="about-text">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cumque reiciendis noet
@@ -91,21 +101,33 @@
         </section>
         <section class="portfolio" id="portfolio">
             <div id="portfolio" class="container">
-                <h2 class="port__headText section--headText">Portfolio</h2>
-                <div class="underline"></div>
+                <h2 class="portfolio__headText section--headText">Portfolio</h2>
+                <div class="underline portfolio__underline"></div>
             </div>
             <div class="portfolio-box">
-                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
-                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
-                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
-                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
-                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
-                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img">
-                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img hidden">
-                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img hidden">
-                <img src="./img/Rectangle 2.1.jpg" alt="" class="portfolio__img hidden">
+                <figure class="portfolio__img"><img src="./img/portImg_small/portImg_klein01.jpg" alt="soundPhoto"
+                        class="portfolio__img">
+                </figure>
+                <figure class="portfolio__img"><img src="./img/portImg_small/portImg_klein02.jpg" alt="music-event"
+                        class="portfolio__img">
+                </figure>
+                <figure class="portfolio__img"><img src="./img/portImg_small/portImg_klein03.jpg" alt="new-ireland"
+                        class="portfolio__img">
+                </figure>
+                <figure class="portfolio__img hidden"><img src="./img/portImg_small/portImg_klein04.jpg"
+                        alt="portfollio-man" class="portfolio__img hidden"></figure>
+                <figure class="portfolio__img hidden"><img src="./img/portImg_small/portImg_klein05.jpg"
+                        alt="portfolio-woman" class="portfolio__img hidden"></figure>
+                <figure class="portfolio__img hidden"><img src="./img/portImg_small/portImg_klein06.jpg"
+                        alt="special-offer" "></figure>
+                
+                
+                
+                
+                
+                
             </div>
-            <button class="portfolio-btn btn--style" id="portfolio-btn">See more</button>
+            <button class=" portfolio-btn btn--style" id="portfolio-btn">See more</button>
 
         </section>
         <section class="reviews" id="reviews">
@@ -113,24 +135,60 @@
                 <h2 class="reviews__headText section--headText">Customer Reviews</h2>
                 <div class="underline"></div>
                 <div class="review-slider">
-                    <div class="slider-arrows">
-                        <img src="./img/svg/arrow_left.svg" class="arrow__left" alt="arrow-left">
-                        <img src="./img/svg/arrow_right.svg" class="arrow__right" alt="arrow-right">
+
+                    <img src="./img/svg/arrow_left.svg" class="arrow__left" alt="arrow-left">
+                    <img src="./img/svg/arrow_right.svg" class="arrow__right" alt="arrow-right">
+
+                    <div class="slider-wrap">
+                        <div class="slider-content d-none active-slide">
+                            <img src="./img/photo.jpg" alt="photo">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus blanditiis animi
+                                quisqs, eveniet id laborum, eligendi maxime
+                                saepe libero nostrum cupiditate nesciunt est?</p>
+                        </div>
+                        <div class="slider-content d-none">
+                            <img src="./img/photoRev1.jpg" alt="photo">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus blanditiis animi
+                                quisquam repellat ut. uam repellat ut. Esse ex nam dolor, reiciendiEsse ex nam dolor,
+                                reiciendis, eveniet id laborum, eligendi maxime
+                                saepe libero nostrum cupiditate nesciunt est?</p>
+                        </div>
+                        <div class="slider-content d-none">
+                            <img src="./img/photoRev3.jpg" alt="photo">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus blanditiis animi
+                                quisquam repellat ut. Esse euam repellat ut. Esse ex nam dolor, reiciendiuam repellat
+                                ut. Esse ex nam dolor, reiciendix nam dolor, reiciendis, eveniet id laborum, eligendi
+                                maxime
+                                saepe libero nostrum cupiditate nesciunt est?</p>
+                        </div>
                     </div>
-                    <div class="slider-content">
-                        <img src="./img/photo.jpg" alt="photo">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus blanditiis animi
-                            quisquam repellat ut. Esse ex nam dolor, reiciendis, eveniet id laborum, eligendi maxime
-                            saepe libero nostrum cupiditate nesciunt est?</p>
-                    </div>
+
                 </div>
             </div>
         </section>
         <section class="contact" id="contact">
             <div class="container">
                 <h2 class="contact__headText section--headText">Contact Me</h2>
-                <div class="underline"></div>
-                <form id="myFomr" class="contact-form">
+                <div class="underline contact__underline"></div>
+                <div class="contact-card">
+                    <img src="./img/contact_photo.jpg" alt="contact-photo">
+                    <div class="contact-data">
+                        <div class="wrap">
+                            <p>John Wick</p>
+                            <p>musterstrasse 77</p>
+                            <p>87988 Musterstadt</p>
+                            <p>Deutschland</p>
+                        </div>
+
+                        <div class="wrap">
+                            <p>Tel: (907) 555-0101</p>
+                            <p>john-wick@mail.co</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <form id="myForm" class="contact-form">
                     <input type="text" name="Name" id="name" placeholder="Name">
                     <input type="mail" name="E-mail" id="email" placeholder="E-mail">
                     <textarea name="mesagge" id="message" rows="15" placeholder="leave a message"></textarea>
@@ -138,43 +196,16 @@
                 </form>
 
             </div>
-            <div class="contact-card">
-                <img src="./img/contact_photo.jpg" alt="contact-photo">
-                <div class="contact-data">
-                    <div class="wrap">
-                        <p>John Wick</p>
-                        <p>musterstrasse 77</p>
-                        <p>87988 Musterstadt</p>
-                        <p>Deutschland</p>
-                    </div>
-                    
-                    <div class="wrap">
-                        <p>Tel: (907) 555-0101</p>
-                        <p>john-wick@mail.co</p>
-                    </div>
 
-                </div>
-            </div>
             <img class="black-arrow-down" src="./img/svg/arrowBlack_down.svg" alt="arrowBlack">
         </section>
-        <footer class="footer">
-            <div class="container">
-                    <nav class="footer-float header-navbar">
-                            <li><a href="#hero">Home</a></li>
-                            <li><a href="#about">About me</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#reviews">Reviews</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </nav>
-                        <div class="footer-icons">
-                                <a href="#"><img src="./img/svg/facebook.svg" alt="facebook"></a>
-                                <a href="#"><img src="./img/svg/instogram.svg" alt="instogram"></a>
-                                <a href="#"><img src="./img/svg/behance.svg" alt="behance"></a>
-                        </div>
-            </div>
-
-        </footer>
     </main>
+    <footer class="footer">
+        <div class="container">
+        </div>
+
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
